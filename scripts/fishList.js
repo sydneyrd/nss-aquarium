@@ -1,8 +1,8 @@
 
 import { getFish } from './database.js'
-
-export const FishList = ()) => {
+export const FishList = () => {
     // Invoke the function that you imported from the database module
+
     const fishes = getFish()
 
     // Start building a string filled with HTML syntax
@@ -26,4 +26,3 @@ export const FishList = ()) => {
 
     return htmlString
 }
-
