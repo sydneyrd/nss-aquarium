@@ -16,8 +16,19 @@
   align-items: center;
   flex-direction: column;
   flex: 2;
-  position: sticky;
-  font-family:'Paytone One', sans-serif;;
+  font-family:'Paytone One', sans-serif;
+  position: fixed;
+  right: 0;
+  top: 10%;
+  width: 15em;
+  height: 300em;
+  margin-top: -2.5em;
+    
+  
+}
+.care__Header {
+  align-content: center;
+  text-align: center;
 }
 .care__text {
   font-family: 'Varela Round', sans-serif;
@@ -100,7 +111,11 @@ padding-bottom: 10em;
   object-fit: cover;
   max-width: 400px;
   width: 100%;
+  padding-bottom: 3em;
+  padding-top: 3em;
 }
 .fish__quote {
   font-family: 'Permanent Marker', cursive;
+  padding-bottom: 4em;
+  font-size: 20px;
 }

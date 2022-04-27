@@ -8,13 +8,12 @@ import { randomTip } from './tips.js'
 
 
 
-
 const mainContainer = document.querySelector(".main")
 
 
 const applicationHTML = `
 <aside class='care'>
-<h2 class='care__Header'>caring for your fish family</h2>
+<h2 class='care__Header'>love them fish right</h2>
 <div>  ${randomTip()} </div>
 </aside>
 
@@ -22,7 +21,8 @@ const applicationHTML = `
 <section class='fish__List'> ${FishList()} </section>
 
 
-<section class="locations"> ${locationHtml()}
+<section class="locations"> <div><q class="fish__quote">“There is, one knows not what sweet mystery about this sea, whose gently awful stirrings seem to speak of some hidden soul beneath...”</q>
+</div> <h2 class='location__header'>Locations</h2> ${locationHtml()}
 </section>
 `
 mainContainer.innerHTML = applicationHTML

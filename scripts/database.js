@@ -74,6 +74,23 @@ const database = {
        },
 
     ],
+    locations: [
+        {
+            id: 1,
+            locationURL: "https://tinyurl.com/54athrur",
+            flavorText: "Oh boy look at this place.",
+        },
+        {
+            id: 2,
+            locationURL: "https://tinyurl.com/2yb6cvjj",
+            flavorText: "I harvested the hell out of some fish here.",
+        },
+        {
+            id: 3,
+            locationURL: "https://tinyurl.com/yc7kturt",
+            flavorText: "I hope you didn't notice these are all just Costa Rica",
+        },
+    ]
 }
 
 export const getFish = () => {
@@ -82,4 +99,8 @@ export const getFish = () => {
 
 export const getTips = () => {
     return database.tips.map(tips => ({...tips}))
+}
+
+export const getLocations = () => {
+    return database.locations.map(locations => ({...locations}))
 }
