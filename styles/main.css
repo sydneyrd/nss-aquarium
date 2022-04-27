@@ -1,0 +1,97 @@
+* {
+  border: 1px dotted cornflowerblue;
+  background-color: #31A9D8;
+}
+
+.mainHeader {
+  display: flex;
+  margin: 0 0 3rem 0;
+  justify-content: left;
+  font-family: 'Paytone One', sans-serif;
+  font-size: 30px;
+}
+
+.care {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex: 2;
+  position: sticky;
+}
+.care__text {
+  font-family: 'Varela Round', sans-serif;
+  text-align: center;
+  line-height: 1.8;
+  font-size: 20px;
+  padding-left: 2em;
+  padding-right: 2em;
+  color: #1B3B6F;
+}
+
+
+#header__Top {
+  display: flex;
+  justify-content:  center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction:row-reverse;
+}    
+
+.main__Content {
+  display: flex;
+  flex: 8;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-basis: 400px;
+}
+
+.fish__List {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding-bottom: 10em;
+}
+
+.locations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-items:center;
+  
+}
+.fish__image {
+  object-fit: cover;
+  max-width: 400px;
+  width: 100%;
+
+}
+
+.fish__name {
+  align-items:center;
+  font-weight: bold;
+  text-align: center;
+}
+.fish__species {
+  text-align: center;
+}
+.fish__length {
+  text-align: center;
+}
+.fish__diet {
+  text-align: center;
+}
+.fish__location {
+  text-align: center;
+}
+.location__picture {
+  object-fit: cover;
+  max-width: 400px;
+  width: 100%;
+}
+.fish__quote {
+  font-family: 'Permanent Marker', cursive;
+}
