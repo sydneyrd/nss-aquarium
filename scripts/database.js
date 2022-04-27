@@ -30,7 +30,7 @@ const database = {
             size: 4,
             location: "The creek behind Randy's house",
             species: "Salty Chat Trollfish",
-            image: "https://tinyurl.com/4nse3u2b",
+            image: "https://tinyurl.com/yrkdzjwe",
             length: "10 inches",
         },
         {
